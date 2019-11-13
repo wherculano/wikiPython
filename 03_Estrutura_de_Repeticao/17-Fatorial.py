@@ -11,7 +11,7 @@ while True:
 
 fatorial = 1
 
-print('5!=', end='')
+print(f'{fat}!=', end='')
 
 for f in range(fat, 0, -1):
     fatorial *= f
