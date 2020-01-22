@@ -22,5 +22,9 @@ def ampm(hr, minuto):
     return am_to_pm()
 
 
-hora, minutos = list(map(int, input('Digite a hora e o minuto [hh:mm]: ').split(':')))
-print(ampm(hora, minutos))
+while True:
+    hora, minutos = list(map(int, input('Digite a hora e o minuto [hh:mm]: ').split(':')))
+    print(ampm(hora, minutos))
+    op = input('Deseja continuar? [S/N]: ').upper()
+    if op == 'N':
+        break
