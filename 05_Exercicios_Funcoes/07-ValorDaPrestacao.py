@@ -36,4 +36,4 @@ while True:
     if op == 0:
         break
 
-print(f'\nForam pagas {len(prestacoes)} prestações num total de R${sum(prestacoes):.2f}')
+print(f'\nForam pagas {len(prestacoes)} prestações com um total de R${sum(prestacoes):.2f}')
