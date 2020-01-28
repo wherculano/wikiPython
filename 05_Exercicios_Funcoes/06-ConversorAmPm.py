@@ -9,6 +9,7 @@ Inclua um loop que permita que o usuário repita esse cálculo para novos valore
 """
 
 
+# Não consegui entender a linha 6
 def ampm(hr, minuto):
     if hr <= 12:
         ap = 'A.M'
